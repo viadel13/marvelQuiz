@@ -2,13 +2,16 @@ import { initializeApp } from "firebase/app";
 import {getAuth} from 'firebase/auth';
 import { getFirestore, doc } from "firebase/firestore";
 
+
+
+
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID 
+  apiKey: "AIzaSyD-VlCWjWRTLvwGZ_BONYR2hFwUTTjByQ0",
+  authDomain: "marvel-quiz-2f3f9.firebaseapp.com",
+  projectId: "marvel-quiz-2f3f9",
+  storageBucket: "marvel-quiz-2f3f9.appspot.com",
+  messagingSenderId: "796563953550",
+  appId: "1:796563953550:web:4955a9c1f576eb9ce536df"
 };
 
 const app = initializeApp(firebaseConfig);
